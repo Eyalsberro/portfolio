@@ -40,8 +40,8 @@ export default function page() {
             <h1 className={styles.title}>Photo Gallery</h1>
             <div className={styles.gallertdiv}>
                 {gallertpic.map((item) => (
-                    <Link href={item.link}>
-                        <div key={item.title}>
+                    <Link href={item.link} key={item.title}>
+                        <div >
                             <img className={styles.gallerypic} src={item.img} alt={item.title} />
                             <h2>{item.title}</h2>
                         </div>
