@@ -12,7 +12,7 @@ export default function Home() {
           <Link href={"/"}>Eyal Sberro</Link >
         </div>
         <div className={styles.navLinks}>
-          {['Web Development', 'Photography', 'Videos', 'About me', 'Contact'].map((item) => (
+          {['Web Development', 'Photography', 'About me', 'Contact'].map((item) => (
             <Link
               key={item}
               href={`/${item.toLowerCase().replace(' ', '-')}`}

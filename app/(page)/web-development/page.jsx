@@ -4,6 +4,7 @@ import { Projects } from './projects';
 import Link from 'next/link';
 import Header from '../Header';
 
+
 export default function page() {
   return (
     <>
@@ -12,7 +13,10 @@ export default function page() {
         {Projects.map((project) => (
           <div className={styles.projectdiv} key={project}>
             <Link href={project.link} target='_blank'>
-              <img src={project.image} alt={project.title} />
+              <img
+                src={project.image}
+                alt={project.title}
+              />
               <h2>{project.title}</h2>
               <p>{project.description}</p>
               <button>VIEW</button>
