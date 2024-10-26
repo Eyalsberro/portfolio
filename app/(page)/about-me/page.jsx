@@ -41,8 +41,8 @@ export default function page() {
                     </div>
                 </div>
                 <div className={styles.text}>
-                    <p>I'm excited to share a bit about myself! <br />
-                        My name is Eyal, and I'm based in Chicago. <br />
+                    <p>I&apos;m excited to share a bit about myself! <br />
+                        My name is Eyal, and I&apos;m based in Chicago. <br />
                         This website showcases my journey through various photoshoots, creative projects, and serves as a platform for you to connect with me.
                         <br />
                         <br />

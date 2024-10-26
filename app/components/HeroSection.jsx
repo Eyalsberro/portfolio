@@ -8,7 +8,7 @@ export default function HeroSection() {
 
             {/* Hero Content */}
             <div className={styles.heroContent}>
-                <h2 className={styles.preTitle}>HEY I'M</h2>
+                <h2 className={styles.preTitle}>HEY I&apos;M</h2>
                 <h1 className={styles.mainTitle}>
                     EYAL
                 </h1>
