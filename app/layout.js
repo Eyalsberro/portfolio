@@ -26,6 +26,10 @@ const Teko = localFont({
 export const metadata = {
   title: "Eyal Sberro Website",
   description: "Portfolio with projects and photography work worldwide",
+  image: "/images/eyalsberro.png",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }) {
