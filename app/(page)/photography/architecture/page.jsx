@@ -11,7 +11,7 @@ export default function page() {
     return (
         <>
             <Header />
-            <h1 className={styles.title}>Solstice magazine</h1>
+            <h1 className={styles.title}>Architecture around the world</h1>
             <div className={styles.imagelist}>
                 <ImageList variant="masonry" cols={3} gap={8}>
                     {BTS.map((item) => (
