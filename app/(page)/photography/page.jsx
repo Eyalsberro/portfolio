@@ -12,22 +12,22 @@ const gallertpic = [
         link: 'photography/BTS'
     },
     {
-        img: '/pictures/BTS/DSC_2238-scaled.jpg',
+        img: '/pictures/architecture/7-scaled.jpg',
         title: 'Architecture',
         link: 'photography/architecture'
     },
     {
-        img: '/pictures/BTS/DSC_2238-scaled.jpg',
+        img: '/pictures/soltero/1-3-scaled.jpg',
         title: 'Soltero Photoshoot',
         link: 'photography/soltero'
     },
     {
-        img: '/pictures/BTS/DSC_2238-scaled.jpg',
+        img: '/pictures/nature/8-1-scaled.jpg',
         title: 'Nature',
         link: 'photography/nature'
     },
     {
-        img: '/pictures/BTS/DSC_2238-scaled.jpg',
+        img: '/pictures/life-style/9-3-scaled.jpg',
         title: 'Life Style',
         link: 'photography/life-style'
     },
