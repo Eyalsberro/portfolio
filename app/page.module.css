@@ -29,18 +29,37 @@
   color: rgb(185, 185, 185);
 }
 
+.moblienav {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .main {
     background-position-x: center;
   }
 
+}
+
+@media (max-width: 450px) {
+
   .navLinks {
     display: none;
   }
+
+  .moblienav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .moblienav a {
+    margin-bottom: 10px;
+  }
 }
 
-@media (min-height:850px){
-  .main{
+
+@media (min-height:850px) {
+  .main {
     height: 100vh;
   }
 }

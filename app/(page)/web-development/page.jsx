@@ -9,6 +9,7 @@ export default function page() {
   return (
     <>
       <Header />
+      <h1 className={styles.title}>Web Development</h1>
       <div className={styles.projects}>
         {Projects.map((project) => (
           <div className={styles.projectdiv} key={project}>

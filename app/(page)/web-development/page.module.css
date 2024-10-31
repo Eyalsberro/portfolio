@@ -1,3 +1,9 @@
+.title {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 .projects {
     display: flex;
     justify-content: center;

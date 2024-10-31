@@ -18,7 +18,7 @@ export default function HeroSection() {
 
                 {/* Action Buttons */}
                 <div className={styles.buttonContainer}>
-                    {['Web Development', 'Photography', 'About Me', 'Contact Me'].map((text) => (
+                    {['Web Development', 'Photography', 'About Me'].map((text) => (
                         <Link
                             key={text}
                             href={`/${text.toLowerCase().replace(' ', '-')}`}

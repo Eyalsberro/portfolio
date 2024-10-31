@@ -10,7 +10,18 @@ export default function Header() {
                 <Link href={"/"}>Eyal Sberro</Link >
             </div>
             <div className={styles.navLinks}>
-                {['Web Development', 'Photography', 'About me', 'Contact'].map((item) => (
+                {['Web Development', 'Photography', 'About me'].map((item) => (
+                    <Link
+                        key={item}
+                        href={`/${item.toLowerCase().replace(' ', '-')}`}
+                        className={styles.navLink}
+                    >
+                        {item}
+                    </Link>
+                ))}
+            </div>
+            <div className={styles.moblienav}>
+                {['Web Development', 'Photography', 'About me'].map((item) => (
                     <Link
                         key={item}
                         href={`/${item.toLowerCase().replace(' ', '-')}`}
