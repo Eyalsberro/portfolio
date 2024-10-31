@@ -28,7 +28,7 @@ export const metadata = {
   description: "Portfolio with projects and photography work worldwide",
   image: "/images/eyalsberro.png",
   icons: {
-    icon: "/favicon.ico",
+    icon: "./favicon.ico",
   },
 };
 
