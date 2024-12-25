@@ -2,7 +2,7 @@ export const Projects = [
     {
         title: 'InvestWise',
         description: `In the project directory, you can find the following: Client-side built with NextJS. The server side is private but it’s built with the following: Nodejs, Brad AI, and Express. Database with Prisma, AWS`,
-        link: 'https://InvestWise.space?utm_source=eyalsberro.com&utm_medium=website',
+        link: 'https://investwise.site?utm_source=eyalsberro.com&utm_medium=website',
         image: '/images/investwise.png'
     },
     {
