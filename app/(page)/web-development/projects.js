@@ -8,7 +8,7 @@ export const Projects = [
     {
         title: 'Alcompare',
         description: `In the project directory, you can find the following: Client-side built with NextJS. The server side is private but it's built with the following: Nodejs, Puppeteer, and Express. Database with MySQL, AWS`,
-        link: 'https://alcompare.co.il?utm_source=eyalsberro.com&utm_medium=website',
+        link: 'https://alcompare.site?utm_source=eyalsberro.com&utm_medium=website',
         image: '/images/alcompare.webp'
     },
     {
@@ -16,6 +16,12 @@ export const Projects = [
         description: `I created a place where you can buy amazing snapback caps.`,
         link: 'https://snapback-hat.com?utm_source=eyalsberro.com&utm_medium=website',
         image: '/images/snapbackhat.png'
+    },
+    {
+        title: 'VisualMenu',
+        description: `In the project directory, you can find: Client and Serve built with NextJS, Database with MySQL.`,
+        link: 'https://restaurant-public.vercel.app?utm_source=eyalsberro.com&utm_medium=website',
+        image: '/images/Visual-Menu.png'
     },
     {
         title: 'MKBOOK',
