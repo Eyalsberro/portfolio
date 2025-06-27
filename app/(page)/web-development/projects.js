@@ -18,9 +18,9 @@ export const Projects = [
         image: '/images/snapbackhat.png'
     },
     {
-        title: 'VisualMenu',
+        title: 'Simply Visual',
         description: `In the project directory, you can find: Client and Serve built with NextJS, Database with MySQL.`,
-        link: 'https://restaurant-public.vercel.app?utm_source=eyalsberro.com&utm_medium=website',
+        link: 'https://www.simplyvisual.online?utm_source=eyalsberro.com&utm_medium=website',
         image: '/images/Visual-Menu.png'
     },
     {
